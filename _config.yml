@@ -1,0 +1,114 @@
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Dev at demon.today
+email: hello@demon.today
+description: Personal dev blog based on Jekyll.
+favicon: /assets/icon.svg
+
+# URLs
+url: "https://dev.demon.today" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+permalink: /:categories/:title:output_ext
+paginate: 20
+
+# Socials
+twitter_username: demondehellis
+github_username:  demondehellis
+instagram_username: demondehellis
+
+# Podcast
+podcast_url: https://dev.demon.today
+podcast_album_art: /assets/icon.png
+podcast_title: Dev at demon.today
+podcast_owner: Demon Hellis
+podcast_email: dev@demon.today
+podcast_category: Leisure
+podcast_subcategory: Hobbies
+podcast_explicit: "no"
+podcast_author: Demon Hellis
+podcast_description: Dev at demon.today
+podcast_summary: Dev at demon.today
+podcast_subtitle: Dev at demon.today
+podcast_lang: ru_RU
+podcast_update_period: weekly
+podcast_update_frequency: 1
+
+# Author
+author:
+  name:         demondehellis
+  url:          https://demon.today
+  email:        hello@demon.today
+
+# Google Analytics
+# google_analytics: 
+
+# Google Tag Manager
+# gtm:
+
+# Yandex Metrika
+# yandex_metrika: 
+
+# Disqus comments
+# disqus: 
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: category_pages
+    values:
+      layout: "category-page"
+      permalink: "/category/:name/"
+
+collections:
+  category_pages:
+    output: true
+
+# Content
+future: true
+
+# Feed
+feed_items: 20
+feed_update_period: daily
+feed_update_frequency: 1
+
+# Build settings
+timezone: Europe/Moscow
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jemoji
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - .idea
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
