@@ -6,13 +6,13 @@
 # in the templates via {{ site.myvariable }}.
 title: Dev at demon.today
 email: hello@demon.today
-description: Personal dev blog based on Jekyll.
+description: Personal dev blog.
 favicon: /assets/icon.svg
 
 # URLs
 url: "https://dev.demon.today" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-permalink: /:categories/:title:output_ext
+permalink: /:categories/:title/
 paginate: 20
 
 # Socials
@@ -44,16 +44,16 @@ author:
   email:        hello@demon.today
 
 # Google Analytics
-# google_analytics: 
+google_analytics: UA-154331641-2
 
 # Google Tag Manager
 # gtm:
 
 # Yandex Metrika
-# yandex_metrika: 
+yandex_metrika: 61620895
 
 # Disqus comments
-# disqus: 
+disqus: dev-demon-today
 
 # Default values
 defaults:
