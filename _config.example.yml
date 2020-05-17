@@ -7,12 +7,12 @@
 title: demon.today
 email: hello@demon.today
 description: demon.today
-favicon: /assets/icon-fuzz.svg
+favicon: /assets/icon.svg
 
 # URLs
 url: "https://demon.today" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-permalink: /:categories/:title:output_ext
+permalink: /:categories/:title/
 paginate: 20
 
 # Socials
@@ -22,7 +22,7 @@ instagram_username: demondehellis
 
 # Podcast
 podcast_url: https://radio.demon.today
-podcast_album_art: /assets/icon-fuzz.png
+podcast_album_art: /assets/icon.png
 podcast_title: Radio at demon.today
 podcast_owner: Demon Hellis
 podcast_email: radio@demon.today
